@@ -3,7 +3,7 @@
 	include_once("includes/dbh.inc.php");
 	if(!isset($_SESSION['u_id']))
 	{
-		header("Location:login.php");
+		//header("Location:login.php");
 	}
 	if(isset($_SESSION['u_id']))
 	{
